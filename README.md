@@ -1,5 +1,7 @@
 # SVEM-GT v3.0
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17571608.svg)](https://doi.org/10.5281/zenodo.17571608)
+
 Quick Tc predictor for superconductors using SVEM-GT v3.0 model.
 
 ##  Model Equation
@@ -17,16 +19,21 @@ Where:
 - `model_params.py`: Stores the final Ridge regression coefficients.
 - `calculate_Tc.py`: A 3-line function to compute Tc from descriptors.
 - `README.md`: This file.
+- `LICENSE`: MIT License for open use and citation.
 
 ##  Validation
 
 - R² = 0.81  
 - RMSE (LOFO-CV) = 42.1 ± 8.5 K
 
-##  Reference
+##  Citation
+
+If you use SVEM-GT v3.0 in your research, please cite:
+
+Reis, D. E. dos R. (2025). *SVEM-GT: Strain-Vacancy Quantum-Geometric Law Unifying Five Superconducting Families via Multiplicative Strain-Vacancy Coupling*. Zenodo. https://doi.org/10.5281/zenodo.17571608
 
 Full dataset, figures, and analysis available at Zenodo:  
- [DOI 10.5281/zenodo.17567732](https://doi.org/10.5281/zenodo.17567732)
+[DOI 10.5281/zenodo.17567732](https://doi.org/10.5281/zenodo.17567732)
 
 ##  Suggested Use
 
